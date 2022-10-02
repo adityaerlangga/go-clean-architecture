@@ -1,4 +1,4 @@
-# Go Clean Architecture
+# GO Clean Architecture
 
 Example that shows core principles of the Clean Architecture in Golang projects.
 
@@ -8,7 +8,7 @@ Example that shows core principles of the Clean Architecture in Golang projects.
 - Testable. The business rules can be tested without the UI, Database, Web Server, or any other external element.
 - Independent of UI. The UI can change easily, without changing the rest of the system. A Web UI could be replaced with a console UI, for example, without changing the business rules.
 - Independent of Database. You can swap out Oracle or SQL Server, for Mongo, BigTable, CouchDB, or something else. Your business rules are not bound to the database.
-- Idependent of any external agency. In fact your business rules simply don’t know anything at all about the outside world.
+- Independent of any external agency. In fact your business rules simply don’t know anything at all about the outside world.
 
 More on topic can be found <a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">here</a>.
 
@@ -16,7 +16,7 @@ More on topic can be found <a href="https://blog.cleancoder.com/uncle-bob/2012/0
 
 #### Structure:
 
-4 Domain layers:
+4 Dominant layers:
 
 - Models layer
 - Repository layer
